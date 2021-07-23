@@ -18,7 +18,7 @@ The option to add css can be found here: https://anilist.co/settings/apps (at th
 ## Part 1: Installing the script
 * Install the <a href="https://www.tampermonkey.net/"> Tampermonkey </a>plugin for your browser. (**Supported Browsers:**  Chrome, Microsoft Edge, Safari, Opera Next, and Firefox.)
 * After it is installed, install hoh's <a href="https://greasyfork.org/en/scripts/370473-automail">automail</a> script.
-* If you can see my background image, then the script is running. -> https://anilist.co/user/Megumin/
+* If you can see my background image, then the script is running. -> https://anilist.co/user/EternalDamnation/
 
 ## Part 2: Enabling custom profile CSS
 1. Go to the "Apps" section in your Settings.
