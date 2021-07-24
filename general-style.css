@@ -182,3 +182,40 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     bottom: 0;
     right: 0;
 }
+
+/* Mobile (small screen size) only: */
+@media (max-width: 760px) {
+
+    /* Username positioning - mobile*/
+    .name-wrapper {
+        position: relative;
+        bottom: 5px;
+    }
+}
+
+
+/** PC (standard screen size) only: */
+@media (min-width: 761px) {
+    /*Donator badge*/
+    .nav-btn {
+        position: relative;
+        bottom: 0px;
+        top: -43px;
+        right: 20px;
+    }
+
+
+    /* Username positioning */
+    .name-wrapper {
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+
+/* Makes box invisible for profile pic and username. */
+.banner-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
+    background-color: rgba(16, 24, 35, 0.0);
+}
+
