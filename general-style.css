@@ -174,7 +174,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     transform-style: preserve-3d;
 }
 
-/* Adds a fixed image to the bottom-right hand corner of the screen. */
+/* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it*/
 #nav::after {
     content: url(https://files.catbox.moe/ht64iv.png);
     object-position: top right;
