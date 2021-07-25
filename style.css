@@ -1,12 +1,12 @@
 /* Background image (change the URL to change the image) */
 body {
-    background: rgb(var(--color-background)) url("https://cdn.discordapp.com/attachments/645334093877215232/788752928071876618/K_8.png") center/100% fixed !important;
+    background: rgb(var(--color-background)) url("https://files.catbox.moe/ciagug.jpg") center/100% fixed !important;
     background-repeat: no-repeat !important;
     background-size: 100% auto !important;
 }
 @media (max-width: 1920px) {
     body {
-        background: rgb(var(--color-background)) url("https://cdn.discordapp.com/attachments/645334093877215232/788752928071876618/K_8.png") center/100% fixed !important;
+        background: rgb(var(--color-background)) url("https://files.catbox.moe/ciagug.jpg") center/100% fixed !important;
         background-size: auto !important;
     }
 }
