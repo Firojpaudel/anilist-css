@@ -203,9 +203,9 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     content: url(https://files.catbox.moe/3akuor.png);
     object-position: top right;
     position: fixed;
-    bottom: -240px;
-    right: -195px;
-    scale:0.45;
+    bottom: -281px;
+    right: -228px;
+    scale:0.35;
 }
 
 /* Bottom left pic */
@@ -213,9 +213,9 @@ body::after{
     content: url(https://files.catbox.moe/tyfy6n.png);
     object-position: top right;
     position: fixed;
-    bottom: -90px;
-    left: -87px;
-    scale: 0.75
+    bottom: -120px;
+    left: -80px;
+    scale: 0.65;
 }
 
 /* Mobile (small screen size) only: */
