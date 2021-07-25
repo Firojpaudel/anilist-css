@@ -210,12 +210,12 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 
 /* Bottom left pic */
 body::after{
-    content: url(https://cdn.discordapp.com/attachments/645334093877215232/869000762913603595/wallhaven-0j2xgq.png);
+    content: url(https://files.catbox.moe/tyfy6n.png);
     object-position: top right;
     position: fixed;
-    bottom: -456px;
-    left: -790px;
-    scale: 0.16;
+    bottom: -120px;
+    left: -80px;
+    scale: 0.65;
 }
 
 /* Mobile (small screen size) only: */
