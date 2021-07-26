@@ -21,6 +21,7 @@ The option to add css can be found here: https://anilist.co/settings/apps (at th
 * If you can see my background image, then the script is running. -> https://anilist.co/user/EternalDamnation/
 
 ## Part 2: Enabling custom profile CSS
+0. Add something to your Bio! If your bio is completely empty, the custom CSS will not work!
 1. Go to the "Apps" section in your Settings.
 <br>![Apps](Screenshots/1.png)
 2. Scroll to the bottom.
