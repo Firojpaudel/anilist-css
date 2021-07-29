@@ -1,14 +1,8 @@
 /* Background image (change the URL to change the image) */
 body {
-    background: rgb(var(--color-background)) url("https://files.catbox.moe/ciagug.jpg") center/100% fixed !important;
+    background: rgb(var(--color-background)) url("https://cdn.discordapp.com/attachments/645334093877215232/870434522666246154/wallhaven-39qyrv.png") center/100% fixed !important;
     background-repeat: no-repeat !important;
     background-size: 100% auto !important;
-}
-@media (max-width: 1920px) {
-    body {
-        background: rgb(var(--color-background)) url("https://files.catbox.moe/ciagug.jpg") center/100% fixed !important;
-        background-size: auto !important;
-    }
 }
 
 /* Transparent banner - use together with background image */
@@ -49,12 +43,12 @@ body {
 /* About section scrollbar */
 .user .about > div.content-wrap:hover {
     scrollbar-width: thin;
-    scrollbar-color: rgb(255, 111, 0) rgba(31, 35, 45, 0.95);
+    scrollbar-color: rgb(204, 100, 175) rgba(31, 35, 45, 0.95);
 }
 
 /* Anime/manga progress bar color */
-.user-page-unscoped.red .progress .bar {
-    background: linear-gradient(to right, #f00 5%, #ffed00 97%);
+.bar {
+    background: linear-gradient(to right, #3607ff, #e688ba 75%) !important;
 }
 
 /* Profile activity (status/messages/list) Makes border corners rounded. Also required as bugfix for .avatar hover! */
@@ -74,7 +68,7 @@ body {
 
 /* Horizontal rule border settings */
 .markdown hr {
-    border: solid 1px rgb(255, 111, 0);
+    border: solid 1px rgb(172, 57, 140);
     border-radius: 1px;
 }
 
@@ -96,7 +90,7 @@ body {
 /* Changes scrollbar for whole page (Firefox)*/
 html {
     scrollbar-width: thin;
-    scrollbar-color: rgb(255, 111, 0) rgba(31, 35, 45, 0.95);
+    scrollbar-color: rgb(204, 100, 175) rgba(31, 35, 45, 0.95);
 }
 
 /* Chrome scrollbar */
@@ -194,20 +188,20 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it*/
 #nav::after {
-    content: url(https://files.catbox.moe/3akuor.png);
+    content: url(https://cdn.discordapp.com/attachments/645334093877215232/870436328699994192/anyrgb.com.png);
     object-position: top right;
     position: fixed;
-    bottom: -281px;
-    right: -228px;
+    bottom: -243px;
+    right: -226px;
     scale:0.35;
 }
 
 /* Bottom left pic */
 body::after{
-    content: url(https://files.catbox.moe/tyfy6n.png);
+    content: url(https://cdn.discordapp.com/attachments/645334093877215232/870439686789808148/anyrgb.com1.png);
     object-position: top right;
     position: fixed;
-    bottom: -120px;
+    bottom: -90px;
     left: -80px;
     scale: 0.65;
 }
